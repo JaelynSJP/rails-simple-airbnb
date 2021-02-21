@@ -1,3 +1,27 @@
 // Place all the styles related to the Flats controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.container{
+    margin: 10px auto;
+    width: 74%;
+}
+.flat-card{
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    width: 30%;
+    margin: 15px 30px 15px 0;
+  }
+  
+.flat-card > img {
+height: 200px;
+width: 100%;
+object-fit: cover;
+}
+
+.flat-card-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+  
